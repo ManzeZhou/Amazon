@@ -7,8 +7,10 @@ import 'firebase/compat/auth';
 
 
 
+
+
 const firebaseConfig = {
-    apiKey: "AIzaSyCV32SrIfL8R9DPjytnZ4obqATix8tlTgU",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "app-88a2a.firebaseapp.com",
     projectId: "app-88a2a",
     storageBucket: "app-88a2a.appspot.com",
